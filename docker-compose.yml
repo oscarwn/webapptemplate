@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  webapptemplate:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: webapptemplate
+    restart: on-failure:5
+    ports:
+      - "3380:8080"
+    volumes:
+      - type: bind
+        source: ./app
+        target: /app

@@ -1,0 +1,4 @@
+/app/node_modules/
+/app/database/*
+/app/package-lock.json
+/app/INIT

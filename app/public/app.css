@@ -1,0 +1,21 @@
+.class{
+    font-size:8px;
+    text-align: center;
+    width:12px;
+    height:12px;
+}
+#id {
+    background-color:white;
+    border:  1px solid grey ;
+    text-align: center;
+    width: 39px;
+    height: 39px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
